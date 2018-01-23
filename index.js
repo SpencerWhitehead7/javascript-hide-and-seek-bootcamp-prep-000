@@ -17,8 +17,7 @@ function deepestChild(){
   var list = document.querySelector('#grand-node div')
       return list[(list.length-1)]
 }
-      
-      
+
 function deepestChild3(){
   var item = document.querySelector("#grand-node")
   var list = document.querySelectorAll('#grand-node div')
