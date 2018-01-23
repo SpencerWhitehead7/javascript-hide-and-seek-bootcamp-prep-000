@@ -18,13 +18,13 @@ function deepestChild(){
       return list[(list.length-1)]
 }
 
-function deepestChild3(){
-  var item = document.querySelector("#grand-node")
-  var list = document.querySelectorAll('#grand-node div')
-  for(var i=0; i<list.length; i++){
-    item = item.querySelector('div')
-    if(i == list.length-1){
-      return item
-    }
-  }
-}
+//function deepestChild3(){
+//  var item = document.querySelector("#grand-node")
+//  var list = document.querySelectorAll('#grand-node div')
+//  for(var i=0; i<list.length; i++){
+//    item = item.querySelector('div')
+//    if(i == list.length-1){
+//      return item
+//    }
+//  }
+//}
