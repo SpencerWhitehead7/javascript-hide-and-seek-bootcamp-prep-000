@@ -13,12 +13,12 @@ function increaseRankBy(n){
   }
 }
 
-function deepestChildO(){
-  var list = document.querySelector('#grand-node div')
+function deepestChild(){
+  var list = document.querySelectorAll('#grand-node div')
       return list[(list.length-1)]
 }
 
-function deepestChild(){
+function deepestChild3(){
   var item = document.querySelector("#grand-node")
   var list = document.querySelectorAll('#grand-node div')
   for(var i=0; i<list.length; i++){
