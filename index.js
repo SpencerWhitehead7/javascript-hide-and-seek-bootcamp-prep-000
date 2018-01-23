@@ -23,7 +23,7 @@ function deepestChild3(){
   var list = document.querySelectorAll('#grand-node div')
   for(var i=0; i<list.length; i++){
     item = item.querySelector('div')
-    if(item===0){
+    if(i == list.length-1){
       return item
     }
   }
